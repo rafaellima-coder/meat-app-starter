@@ -7,13 +7,15 @@ import { RouterModule } from '@angular/router';
 
 
 import { AppComponent } from './app.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    HeaderComponent
+    HeaderComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
