@@ -7,6 +7,7 @@ import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
+import { RestaurantsComponent } from './restaurants/restaurants.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { AboutComponent } from './about/about.component';
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    AboutComponent
+    AboutComponent,
+    RestaurantsComponent
   ],
   imports: [
     BrowserModule,
